@@ -1,0 +1,51 @@
+/*Global*/
+
+@font-face {
+    font-family: 'lane_-_narrowregular';
+    src: url('../fonts/LANENAR_-webfont.eot');
+    src: url('../fonts/LANENAR_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/LANENAR_-webfont.woff') format('woff'),
+         url('../fonts/LANENAR_-webfont.ttf') format('truetype'),
+         url('../fonts/LANENAR_-webfont.svg#lane_-_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background: url(../img/tree-bark.png);
+	font-family: 'lane_-_narrowregular';
+}
+
+h1 {
+	font-family: 'lane_-_narrowregular';
+}
+
+
+
+/*End Global*/
+
+/*Nav*/
+.top-bar-section ul li > a {
+	font-family: 'lane_-_narrowregular';
+
+}
+.nav-icon {
+	color: #fff;
+	width: 24px;
+}
+
+
+.top-bar {
+	height: 55px;
+}
+.nav-background, .nav-background .has-form,
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: #5ABD9C; 
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background: #5AAB9C;
+	padding-bottom: 10px;
+}
+/*End Nav*/
