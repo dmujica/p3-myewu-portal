@@ -26,19 +26,37 @@ h1 {
 /*End Global*/
 
 /*Nav*/
+
+
 .top-bar-section ul li > a {
 	font-family: 'lane_-_narrowregular';
-
+	font-size: .95em;
 }
+
 .nav-icon {
 	color: #fff;
-	width: 24px;
+	width: 28px;
+	margin-right: 5px;
 }
-
 
 .top-bar {
 	height: 55px;
 }
+
+#search-bar {
+	height: 41px;
+	width: 205px;
+}
+
+.grey-btn {
+	background: #4E4F4F;
+}
+
+.grey-btn:hover {
+	background: #5B5B5B;
+}
+
+.top-bar-section ul,
 .nav-background, .nav-background .has-form,
 .top-bar-section li:not(.has-form) a:not(.button) {
 	background: #5ABD9C; 
@@ -47,5 +65,55 @@ h1 {
 .top-bar-section li:not(.has-form) a:not(.button):hover {
 	background: #5AAB9C;
 	padding-bottom: 10px;
+	transition: background-color 300ms ease-out;
 }
 /*End Nav*/
+
+/*carousel*/
+.carousel {
+	padding-top: 20px;
+}
+/*end of carousel*/
+
+/*Big Links*/
+
+.big-link {
+	background: red;
+	height: 250px;
+}
+
+.link {
+	padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
