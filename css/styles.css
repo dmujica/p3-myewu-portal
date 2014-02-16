@@ -64,7 +64,8 @@ h1 {
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
 	background: #5AAB9C;
-	padding-bottom: 10px;
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition: background-color 300ms ease-out;
 	transition: background-color 300ms ease-out;
 }
 /*End Nav*/
@@ -87,9 +88,20 @@ h1 {
 }
 
 
+/*end big links*/
 
+/*footer*/
 
+footer {
+	background: green;
+	height: 150px;
+}
 
+footer li {
+	display: inline;
+}
+
+/*end footer*/
 
 
 
