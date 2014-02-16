@@ -23,6 +23,8 @@ h1 {
 
 
 
+
+
 /*End Global*/
 
 /*Nav*/
@@ -74,6 +76,31 @@ h1 {
 .carousel {
 	padding-top: 20px;
 }
+
+.panel-text {
+	background: #DBDAC4;
+	height: 300px;
+}
+
+.panel-reminder {
+	position: absolute;
+	left: 250px;
+	top: 75px;
+}
+
+p {
+	color: white;
+	font-size: 3em;
+	display: block;
+}
+
+.slider-icon {
+	position: absolute;
+	width: 15%;
+	left: 80px;
+	
+}
+
 /*end of carousel*/
 
 /*Big Links*/
@@ -90,10 +117,12 @@ h1 {
 
 /*end big links*/
 
+
 /*footer*/
 
 footer {
-	background: green;
+	background: #444343;
+	color: white;
 	height: 150px;
 }
 
