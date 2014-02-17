@@ -17,8 +17,9 @@ body {
 	font-family: 'lane_-_narrowregular';
 }
 
-h1 {
+h1, h4 {
 	font-family: 'lane_-_narrowregular';
+	color: #fff;
 }
 
 
@@ -68,7 +69,7 @@ h1 {
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-	background: #5AAB9C;
+	background: #5BB290;
 	padding-bottom: 10px;
 	
 }
@@ -82,6 +83,13 @@ h1 {
 .panel-text {
 	background: #DBDAC4;
 	height: 300px;
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition: background-color 300ms ease-out;
+	transition: background-color 300ms ease-out;
+}
+
+.panel-text:hover {
+	background: #D3D1C1;
 }
 
 .panel-reminder {
@@ -134,7 +142,7 @@ h1 {
 }
 
 .links:hover {
-	background: #5AAB9C;
+	background: #5BB290;
 	
 }
 
@@ -150,6 +158,10 @@ h1 {
 	font-size: 2em;
 }
 
+.large-link ul {
+	margin-left: 50px;
+}
+
 /*end big links*/
 
 
@@ -159,16 +171,31 @@ footer {
 	background: #444343;
 	color: white;
 	height: 150px;
+	padding: 15px;
 }
 
 footer li {
-	display: inline;
+	list-style: none;
+}
+
+footer ul {
+	float: left;
 }
 
 .footer-icon {
 	width: 55px;
 	float: right;
 }
+
+footer ul:nth-of-type(3) {
+	float: right;
+}
+
+footer ul:nth-of-type(3) li{
+	display: inline;
+	background: red;
+}
+
 /*end footer*/
 
 
