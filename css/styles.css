@@ -90,7 +90,7 @@ h1, h4 {
 
 .panel-reminder {
 	position: absolute;
-	left: 200px;
+	left: 250px;
 	top: 75px;
 }
 
@@ -99,13 +99,14 @@ h1, h4 {
 	font-size: 2.5em;
 	display: block;
 	width: 700px;
+	line-height: 1.5em;
 }
 
 .slider-icon {
 	position: absolute;
 	width: 15%;
-	left: 50px;
-	
+	top: 50px;
+	left: 75px;
 }
 
 .canvas-slider{
