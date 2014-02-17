@@ -182,13 +182,9 @@ footer ul {
 
 .footer-icon {
 	width: 55px;
-	-webkit-transition: padding-top 300ms ease-out;
-	-moz-transition: padding-top 300ms ease-out;
-	transition: padding-top 300ms ease-out;
-	
 }
 
-.footer-icon:hover {
+.footer-icon:hover img{
 	padding-top: .5px;
 	
 }
@@ -200,7 +196,6 @@ footer nav-icon img{
 
 footer ul:nth-of-type(6) {
 	float: right;
-	
 }
 
 footer ul:nth-of-type(6) li{
