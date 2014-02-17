@@ -171,29 +171,51 @@ footer {
 	background: #444343;
 	color: white;
 	height: 150px;
-	padding: 15px;
+	padding: 0 15px;
 }
 
 footer li {
 	list-style: none;
+
 }
 
 footer ul {
 	float: left;
+	padding: 10px;
 }
 
 .footer-icon {
 	width: 55px;
-	float: right;
-}
-
-footer ul:nth-of-type(3) {
-	float: right;
-}
-
-footer ul:nth-of-type(3) li{
-	display: inline;
 	
+}
+
+.footer-icon:hover {
+	padding-top: .5px;
+	
+}
+
+
+footer nav-icon img{
+	position: absolute;
+}
+
+footer ul:nth-of-type(6) {
+	float: right;
+	
+}
+
+footer ul:nth-of-type(6) li{
+	display: inline;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer a:hover,
+h4:hover
+ {
+	color: lightgray;
 }
 
 /*end footer*/
