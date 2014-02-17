@@ -88,7 +88,7 @@ h1 {
 	top: 75px;
 }
 
-p {
+.carousel p {
 	color: white;
 	font-size: 3em;
 	display: block;
@@ -110,15 +110,31 @@ p {
 
 /*Big Links*/
 
-.big-link {
-	background: red;
-	height: 250px;
+
+.direct-links {
+	height: 350px;
+	width: 146px; 
 }
 
-.link {
-	padding-bottom: 25px;
+.links {
+	background: #5ABD9C;
+	display: block;
+	width: 315px;
+	height: 275px;
+
 }
 
+.link-icon {
+	width: 70%;
+	margin-left: 45px;
+
+}
+
+.large-link p {
+	text-align: center;
+	color: white;
+	font-size: 2em;
+}
 
 /*end big links*/
 
