@@ -62,13 +62,15 @@ h1 {
 .nav-background, .nav-background .has-form,
 .top-bar-section li:not(.has-form) a:not(.button) {
 	background: #5ABD9C; 
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition: background-color 300ms ease-out;
+	transition: background-color 300ms ease-out;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
 	background: #5AAB9C;
-	-webkit-transition: background-color 300ms ease-out;
-	-moz-transition: background-color 300ms ease-out;
-	transition: background-color 300ms ease-out;
+	padding-bottom: 10px;
+	
 }
 /*End Nav*/
 
@@ -110,6 +112,9 @@ h1 {
 
 /*Big Links*/
 
+.large-link {
+	margin-left: 100px;
+}
 
 .direct-links {
 	height: 350px;
@@ -119,14 +124,23 @@ h1 {
 .links {
 	background: #5ABD9C;
 	display: block;
-	width: 315px;
-	height: 275px;
+	padding: 20px;
+	margin-left: 0px;
+	width: 235px;
+	height: 210px;
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition: background-color 300ms ease-out;
+	transition: background-color 300ms ease-out;
+}
 
+.links:hover {
+	background: #5AAB9C;
+	
 }
 
 .link-icon {
-	width: 70%;
-	margin-left: 45px;
+	width: 65%;
+	margin-left: 35px;
 
 }
 
