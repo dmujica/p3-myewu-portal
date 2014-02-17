@@ -84,7 +84,7 @@ h1 {
 
 .panel-reminder {
 	position: absolute;
-	left: 250px;
+	left: 200px;
 	top: 75px;
 }
 
@@ -92,13 +92,18 @@ p {
 	color: white;
 	font-size: 3em;
 	display: block;
+	width: 700px;
 }
 
 .slider-icon {
 	position: absolute;
 	width: 15%;
-	left: 80px;
+	left: 50px;
 	
+}
+
+.canvas-slider{
+	top:15px;
 }
 
 /*end of carousel*/
