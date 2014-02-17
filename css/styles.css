@@ -112,9 +112,6 @@ h1 {
 
 /*Big Links*/
 
-.large-link {
-	margin-left: 100px;
-}
 
 .direct-links {
 	height: 350px;
@@ -128,6 +125,9 @@ h1 {
 	margin-left: 0px;
 	width: 235px;
 	height: 210px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 	-webkit-transition: background-color 300ms ease-out;
 	-moz-transition: background-color 300ms ease-out;
 	transition: background-color 300ms ease-out;
@@ -165,6 +165,10 @@ footer li {
 	display: inline;
 }
 
+.footer-icon {
+	width: 55px;
+	float: right;
+}
 /*end footer*/
 
 
